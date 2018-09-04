@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DistanceTool\DistanceTool.cs" />
     <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\HelloARController.cs" />
     <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\PlaneAttachment.cs" />
     <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\PointcloudVisualizer.cs" />
