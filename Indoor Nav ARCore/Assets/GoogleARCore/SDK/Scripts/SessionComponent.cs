@@ -335,7 +335,7 @@ namespace GoogleARCore
             tangoConfig.enableMotionTracking = true;
             tangoConfig.enableDepth = false;
             tangoConfig.enableColorCamera = sessionConfig.m_enableARBackground;
-            tangoConfig.areaLearningMode = UnityTango.AreaLearningMode.None;
+            tangoConfig.areaLearningMode = UnityTango.AreaLearningMode.CloudAreaDescription;
             tangoConfig.AddConfigParameter(DRIFT_CORRECTION_FLAG, true);
             tangoConfig.AddConfigParameter(POINTCLOUD_FROM_VIO_FLAG, sessionConfig.m_enablePointcloud);
             tangoConfig.AddConfigParameter(POINTCLOUD_TYPE_FLAG, XYZC_POINTCLOUD_MODE);
